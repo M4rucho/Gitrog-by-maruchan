@@ -1,0 +1,86 @@
+.color1 {color: #140d0d;}
+.color2 {color: #3d2828;}
+.color3 {color: #636054;}
+.color4 {color: #a68c76;}
+.color5 {color: #cac59e;}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #cac59e;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+
+  .main{
+    flex: 1;
+  }
+
+  .logo{
+    height: 400px;
+    margin-right: 30px;
+    float: left;
+  }
+  
+  .T-1{
+    color:#140d0d;
+    margin-left: 0%;
+    margin-bottom: 0%;
+  }
+
+  .ST-2{
+    margin-top: 0%;
+    font-size: small;
+    color: #636054;
+  }
+  .barato{
+    font-size: small;
+  }
+  .Wincon{
+    height: 300px;
+    margin-right: 10px;
+  }
+  .contenedor-imagen {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+        
+  .imagen-escondida {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+  }
+        
+  .contenedor-imagen:hover .imagen-escondida {
+    display: block;
+  }
+
+  details {
+    margin: 0px;
+    border-radius: 5px;
+  }
+
+  summary{
+  padding: 0px;
+  cursor: pointer;
+  list-style: none;
+  background: transparent; 
+  }
+
+  .contenido {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  summary::-webkit-details-marker {
+    display: none; 
+  }
